@@ -5,10 +5,12 @@
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="Your Repository Name">
-            <info compressed="false">https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/</datadir>
-            <hashes>false</hashes>
+            <dir>
+              <info compressed="false">https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/addons.xml</info>
+              <checksum>https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/addons.xml.md5</checksum>
+              <datadir zip="true">https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/</datadir>
+              <hashes>false</hashes>
+            </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>A short summary of this repository</summary>
@@ -22,7 +24,7 @@
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="2.0.1" />
         <import addon="script.embuary.helper" version="2.0.8" />
-        <import addon="plugin.video.themoviedb.helper" version="4.11.5" />
+        <import addon="plugin.video.themoviedb.helper" version="4.10.14" />
         <import addon="plugin.video.imdb.trailers" version="2.1.16" />
         <import addon="weather.gismeteo" version="0.6.3" />
     </requires>

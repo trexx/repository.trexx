@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="repository.trexx" name="Your Repository Name" version="1.0.0" provider-name="trexx">
+    <addon id="repository.trexx" name="T-Dawgs Kodi Repo" version="1.0.0" provider-name="trexx">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
-        <extension point="xbmc.addon.repository" name="Your Repository Name">
+        <extension point="xbmc.addon.repository" name="T-Dawgs Kodi Repo">
             <dir>
               <info compressed="false">https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/addons.xml</info>
               <checksum>https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/addons.xml.md5</checksum>
@@ -13,13 +13,13 @@
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>A short summary of this repository</summary>
-            <description>The description can be longer. Using [CR] you can create a newline. The use of other markup is not advised.</description>
+            <summary>N/A</summary>
+            <description>N/A</description>
             <platform>all</platform>
     </extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.18">
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.19">
     <requires>
         <import addon="xbmc.gui" version="5.16.0" />
         <import addon="script.skinshortcuts" version="2.0.1" />

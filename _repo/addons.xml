@@ -1,21 +1,369 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="repository.trexx" name="T-Dawgs Kodi Repo" version="1.0.0" provider-name="trexx">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="T-Dawgs Kodi Repo">
-            <dir>
-              <info compressed="false">https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/addons.xml</info>
-              <checksum>https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/addons.xml.md5</checksum>
-              <datadir zip="true">https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/</datadir>
-              <hashes>false</hashes>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>N/A</summary>
-            <description>N/A</description>
-            <platform>all</platform>
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.24">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+        <import addon="script.skinshortcuts" version="2.0.1" />
+        <import addon="plugin.video.themoviedb.helper" version="4.10.14" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.16" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.1">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.10">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.11">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.12">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.13">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.14">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.15">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.16">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.17">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.18">
+    <requires>
+        <import addon="xbmc.gui" version="5.16.0" />
+        <import addon="script.skinshortcuts" version="2.0.1" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.10.14" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.16" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.19">
+    <requires>
+        <import addon="xbmc.gui" version="5.16.0" />
+        <import addon="script.skinshortcuts" version="2.0.1" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.10.14" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.16" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.2">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.20">
+    <requires>
+        <import addon="xbmc.gui" version="5.16.0" />
+        <import addon="script.skinshortcuts" version="2.0.1" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.10.14" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.16" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.21">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+        <import addon="script.skinshortcuts" version="2.0.1" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.10.14" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.16" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.22">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+        <import addon="script.skinshortcuts" version="2.0.1" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.10.14" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.16" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
 </addon>
 
@@ -39,6 +387,163 @@
         <assets>
             <icon>icon.png</icon>
         </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.3">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.4">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.5">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.6">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.7">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.stripped" name="Arctic Zephyr 2 Stripped" provider-name="jurialmunkey, trexx" version="0.0.9">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.0" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="plugin.video.imdb.trailers" version="2.1.14" />
+        <import addon="weather.gismeteo" version="0.6.3" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+    <addon id="repository.trexx" name="T-Dawgs Kodi Repo" version="1.0.0" provider-name="trexx">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="T-Dawgs Kodi Repo">
+            <dir>
+              <info compressed="false">https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/addons.xml</info>
+              <checksum>https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/addons.xml.md5</checksum>
+              <datadir zip="true">https://raw.githubusercontent.com/trexx/repository.trexx/master/_repo/</datadir>
+              <hashes>false</hashes>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>N/A</summary>
+            <description>N/A</description>
+            <platform>all</platform>
     </extension>
 </addon>
 </addons>

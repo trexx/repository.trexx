@@ -1,3 +1,6 @@
 [submodule "skin.arctic.zephyr.2.stripped"]
 	path = addons/skin.arctic.zephyr.2.stripped
 	url = https://github.com/trexx/skin.arctic.zephyr.2.stripped.git
+[submodule "addons/script.module.horus"]
+	path = addons/script.module.horus
+	url = https://github.com/trexx/script.module.horus.git
